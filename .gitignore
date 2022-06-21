@@ -13,3 +13,5 @@ exceptions.log
 dump.rdb
 
 .DS_Store
+
+package-lock.json
