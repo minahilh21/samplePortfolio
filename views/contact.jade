@@ -1,0 +1,50 @@
+div(class="section" id="contact")
+  div(class="cc-contact-information" style="background-image: url('images/staticmap.png')")
+    div(class="container")
+      div(class="cc-contact")
+        div(class="row")
+          div(class="col-md-9")
+            div(class="card mb-0" data-aos="zoom-in")
+              div(class="h4 text-center title") Contact Me
+              div(class="row")
+                div(class="col-md-6")
+                  div(class="card-body")
+                    form(action="https://formspree.io/your@email.com" method="POST")
+                      div(class="p pb-3")
+                        strong Feel free to contact me
+                      div(class="row mb-3")
+                        div(class="col")
+                          div(class="input-group")
+                            span(class="input-group-addon")
+                              i(class="fa fa-user-circle")
+                            input(class="form-control" type="text" name="name" placeholder="Name" required="required")
+                      div(class="row mb-3")
+                        div(class="col")
+                          div(class="input-group")
+                            span(class="input-group-addon")
+                              i(class="fa fa-file-text")
+                            input(class="form-control" type="text" name="Subject" placeholder="Subject" required="required")
+                      div(class="row mb-3")
+                        div(class="col")
+                          div(class="input-group")
+                            span(class="input-group-addon")
+                              i(class="fa fa-envelope")
+                            input(class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required")
+                      div(class="row mb-3")
+                        div(class="col")
+                          div(class="form-group")
+                            textarea(class="form-control" name="message" placeholder="Your Message" required="required")
+                      div(class="row")
+                        div(class="col")
+                          button(class="btn btn-primary" type="submit") Send
+                div(class="col-md-6")
+                  div(class="card-body")
+                    p(class="mb-0")
+                      strong Address 
+                    p(class="pb-2") 140, City Center, New York, U.S.A
+                    p(class="mb-0")
+                      strong Phone
+                    p(class="pb-2") +1718-111-0011
+                    p(class="mb-0")
+                      strong Email
+                    p anthony@company.com
