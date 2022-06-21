@@ -1,0 +1,15 @@
+build
+
+.env
+
+node_modules
+
+app.log
+
+errors.log
+
+exceptions.log
+
+dump.rdb
+
+.DS_Store
