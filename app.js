@@ -7,6 +7,9 @@ app.use(express.static(path.join(__dirname, "/assets")));
 app.get('/', function (req, res) {
     res.render('index');
 });
+app.get('/cv', function (req, res) {
+    res.sendFile(__dirname + "/cv.pdf");
+});
 
 var server = app.listen(3100, function () {
     console.log('http://localhost:3100/');
