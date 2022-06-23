@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 app.get('/cv', function (req, res) {
-    res.sendFile(__dirname + "/cv.pdf");
+    res.sendFile(__dirname + "/Hassam-Resume.pdf");
 });
 
 var server = app.listen(3100, function () {
