@@ -1,4 +1,34 @@
 
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  border: 2px solid #378C3F;
+  background-color: #fff;
+
+}
+.carousel-indicators .active {
+  background-color: #378C3F !important;
+
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-right:3.3em;
+}
+.project li img {
+  text-decoration:none;
+  color:#000;
+  display:block;
+  min-height:36em; 
+  width:22em;
+  padding:1em; 
+  margin:0  
+  1.5em;
+  border-radius: 2em;
+}
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
