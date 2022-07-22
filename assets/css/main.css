@@ -5326,3 +5326,43 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+  /* portfolio */
+  .portfolio-img {
+    border-radius: 25%;
+  }
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 9.7em;
+  left: 1em;
+  right: 1em;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: green;
+}
+.overlay:hover {
+  opacity: 0.8;
+}
+.icon {
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fa-plus:hover {
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .portfolio .row {
+    margin:2em;
+  }
+}
+ @media only screen and (max-width: 900px) and (min-width: 600px){
+  .overlay {
+  bottom: 12.4em;
+  }
+}
