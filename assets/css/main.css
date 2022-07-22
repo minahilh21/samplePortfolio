@@ -3332,7 +3332,7 @@ Created using IcoMoon - icomoon.io
 .now-ui-icons.users_single-02:before {
   content: "\ea51"; }
 
-.modal-content {
+/* .modal-content {
   border-radius: 0.1875rem;
   border: none;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5); }
@@ -3362,7 +3362,7 @@ Created using IcoMoon - icomoon.io
     padding-bottom: 16px;
     padding-left: 24px;
     /* Safari 6.1+ */
-    justify-content: space-between; }
+    /* justify-content: space-between; }
     .modal-content .modal-footer button {
       margin: 0;
       padding-left: 16px;
@@ -3393,8 +3393,8 @@ Created using IcoMoon - icomoon.io
   border-radius: 50%;
   text-align: center;
   line-height: 5.9;
-  box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.3); }
-  .modal.modal-mini .modal-profile i {
+  box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.3); } */
+  /* .modal.modal-mini .modal-profile i {
     color: #378C3F;
     font-size: 21px; }
   .modal.modal-mini .modal-profile[class*="modal-profile-"] i {
@@ -3438,9 +3438,9 @@ Created using IcoMoon - icomoon.io
 
 .modal.modal-warning .modal-content {
   background-color: #FFB236;
-  color: #FFFFFF; }
+  color: #FFFFFF; } */
 
-.modal.modal-warning .modal-header .close {
+/*.modal.modal-warning .modal-header .close {
   color: #FFFFFF; }
 
 .modal.modal-success .modal-content {
@@ -3464,7 +3464,7 @@ Created using IcoMoon - icomoon.io
   color: #FF3636;
   text-shadow: none; }
   .modal .modal-header .close:hover, .modal .modal-header .close:focus {
-    opacity: 1; }
+    opacity: 1; } */
 
 .carousel-item-next,
 .carousel-item-prev,

@@ -4546,8 +4546,8 @@ button.list-group-item-dark.active {
 
 .close {
     float: right;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 8rem;
+    font-weight: 200;
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
@@ -4637,13 +4637,23 @@ button.close {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
-    border-bottom: 1px solid #e9ecef
+    padding: 1rem;
 }
-
+/* @media(min-width: 800px) {
+    .close-modal {
+        font-size: 2rem;
+    }
+} */
+.close-modal {
+    font-size: 4rem;
+}
 .modal-title {
-    margin-bottom: 0;
-    line-height: 1.5
+    margin: 2rem auto;
+    width: 40%;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center !important;
+    justify-content: center !important;
 }
 
 .modal-body {
@@ -4651,13 +4661,18 @@ button.close {
     flex: 1 1 auto;
     padding: 15px
 }
+.modal-body p { 
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 
 .modal-footer {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 15px;
-    border-top: 1px solid #e9ecef
+    /* border-top: 1px solid #e9ecef */
 }
 
 .modal-footer>:not(:first-child) {
@@ -4676,9 +4691,16 @@ button.close {
     overflow: scroll
 }
 
+@media (max-width:600px) {
+    .modal-title {
+        width: 80%;
+        margin: 1rem 0 !important;
+    }
+
+}
 @media (min-width:576px) {
     .modal-dialog {
-        max-width: 500px;
+        max-width: 500px; 
         margin: 30px auto
     }
     .modal-sm {
