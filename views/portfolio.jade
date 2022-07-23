@@ -1,77 +1,11 @@
-div(class="portfolio section container" style="text-align: center")
+div(class="portfolio section container" id="portfolio" style="text-align: center")
   div(class="h4 text-center mb-4 title") Portfolio 
   div(class="row")
-    div(class="col-sm-4")
-      img(class="portfolio-img card-img-top" src="images/img1.png" alt="Card image cap")
-      div(data-toggle="modal" data-target="#project1" class="overlay")
-        a(style="color:white" data-toggle="modal" data-target="#project1" class="icon")
-          i(class="fa fa-plus")      
-      div(class="card" style="box-shadow:none; background-color:#f8f9fa;")
-        div(class="card-body")
-          div(class="card-text")
-            h2(style="margin:auto !important;") 1 Top Driver
-            p ioS Development 
-    div(class="col-sm-4")
-      img(class="portfolio-img card-img-top" src="images/img1.png" alt="Card image cap")
-      div(data-toggle="modal" data-target="#project2" class="overlay")
-        a(style="color:white" class="icon")
-          i(class="fa fa-plus")      
-      div(class="card" style="box-shadow:none; background-color:#f8f9fa;")
-        div(class="card-body")
-          div(class="card-text")
-            h2(style="margin:auto !important;") 1 Top Driver
-            p ioS Development 
-    div(class="col-sm-4")
-      img(class="portfolio-img card-img-top" src="images/img1.png" alt="Card image cap")
-      div(class="overlay")
-        a(style="color:white" class="icon")
-          i(class="fa fa-plus")      
-      div(class="card" style="box-shadow:none; background-color:#f8f9fa;")
-        div(class="card-body")
-          div(class="card-text")
-            h2(style="margin:auto !important;") 1 Top Driver
-            p ioS Development        
-  div(class="row")
-    div(class="col-sm-4")
-      img(class="portfolio-img card-img-top" src="images/img1.png" alt="Card image cap")
-      div(class="overlay")
-        a(style="color:white" class="icon")
-          i(class="fa fa-plus")      
-      div(class="card" style="box-shadow:none; background-color:#f8f9fa;")
-        div(class="card-body")
-          div(class="card-text")
-            h2(style="margin:auto !important;") 1 Top Driver
-            p ioS Development 
-    div(class="col-sm-4")
-      img(class="portfolio-img card-img-top" src="images/img1.png" alt="Card image cap")
-      div(class="overlay")
-        a(style="color:white" class="icon")
-          i(class="fa fa-plus")      
-      div(class="card" style="box-shadow:none; background-color:#f8f9fa;")
-        div(class="card-body")
-          div(class="card-text")
-            h2(style="margin:auto !important;") 1 Top Driver
-            p ioS Development       
-      //- modals 
-div(class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true")
-  div(style="max-width: 80%; max-height: 90vh;" class="modal-dialog" role="document")
-    div(class="modal-content")
-      div(class="modal-header")
-        h3(class="modal-title" id="project1Label") CONECTACTE
-        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
-          span(aria-hidden="true")&times;
-      div(class="modal-body")
-        p Purchase, sale or barter of goods and services, Employ yourself or self-employ. Purchase, sale or barter of goods and services, Employ yourself or self-employ. Purchase, sale or barter of goods and services, Employ yourself or self-employ.Purchase, sale or barter of goods and services, Employ yourself or self-employ.Purchase, sale or barter of goods and services, Employ yourself or self-employ.Purchase, sale or barter of goods and services, Employ yourself or self-employ.
-      div(class="modal-footer")
-        button(type="button" class="btn btn-primary" data-dismiss="modal") Close project
-div(class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true")
-  div(class="modal-dialog" role="document")
-    div(class="modal-content")
-      div(class="modal-header")
-        h5(class="modal-title" id="project2Label") Modal title 2
-        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
-          span(aria-hidden="true")&times;
-      div(class="modal-body") content hjhbj jjh
-      div(class="modal-footer")
-        button(type="button" class="btn btn-primary" data-dismiss="modal") Close project
+    include ./projects/project1.jade
+    include ./projects/project2.jade       
+    include ./projects/project3.jade       
+  div(class="row")      
+    include ./projects/project4.jade       
+    include ./projects/project5.jade       
+
      

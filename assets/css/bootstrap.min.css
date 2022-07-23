@@ -4637,18 +4637,13 @@ button.close {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 1rem;
 }
-/* @media(min-width: 800px) {
-    .close-modal {
-        font-size: 2rem;
-    }
-} */
 .close-modal {
     font-size: 4rem;
 }
 .modal-title {
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 40%;
     font-size: 2rem;
     line-height: 1.5;
