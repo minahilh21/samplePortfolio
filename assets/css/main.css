@@ -20,19 +20,6 @@
 .portfolio-img {
   border-radius: 25%;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 9.7em;
-  left: 1em;
-  right: 1em;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: green;
-}
-.overlay:hover {
-  opacity: 0.75;
-}
 .icon {
   color: white;
   font-size: 5em;
@@ -5200,7 +5187,7 @@ a.credit {
   .overlay {
   position: absolute;
   top: 0;
-  bottom: 9.7em;
+  bottom: 9em;
   left: 1em;
   right: 1em;
   opacity: 0;
